@@ -110,6 +110,10 @@ on boot
     chown system system /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-01/c440000.qcom,spmi:qcom,pm6150@1:qcom,vibrator@5300/leds/vibrator/vtg_level
     chmod 0660 /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-01/c440000.qcom,spmi:qcom,pm6150@1:qcom,vibrator@5300/leds/vibrator/vtg_level
 
+    # Touchpanel
+    chmod 0664 /sys/devices/virtual/touch/touch_dev/double_tap
+    chown system system /sys/devices/virtual/touch/touch_dev/double_tap
+
 on property:sys.boot_completed=1
     # Set allocstall_threshold to 0
     # Set swappiness to 100
