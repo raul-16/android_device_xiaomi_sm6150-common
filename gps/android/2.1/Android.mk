@@ -61,6 +61,10 @@ LOCAL_SHARED_LIBRARIES := \
     android.hardware.power@1.2 \
     libbase
 
+LOCAL_CFLAGS += \
+    -Wno-unused-parameter \
+    -Wno-reorder
+
 LOCAL_SHARED_LIBRARIES += \
     libloc_core \
     libgps.utils \

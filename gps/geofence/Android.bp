@@ -27,5 +27,7 @@ cc_library_shared {
         "liblocation_api_headers",
     ],
 
-    cflags: GNSS_CFLAGS,
+    cflags: [
+        "-Wno-unused-parameter",
+    ] + GNSS_CFLAGS,
 }

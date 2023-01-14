@@ -24,7 +24,12 @@ cc_library_shared {
         "NativeAgpsHandler.cpp",
     ],
 
-    cflags: ["-fno-short-enums"] + GNSS_CFLAGS,
+    cflags: [
+        "-fno-short-enums",
+        "-Wno-reorder",
+        "-Wno-unused-parameter",
+    ] + GNSS_CFLAGS,
+
     header_libs: [
         "libgps.utils_headers",
         "libloc_core_headers",
