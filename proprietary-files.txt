@@ -1,4 +1,4 @@
-# These proprietary files are extracted from Redmi Note 12 Pro 4G (codenamed `sweet_k6a`) OS1.0.2.0.THGMIXM, unless pinned
+# These proprietary files are extracted from Redmi Note 12 Pro 4G (codenamed `sweet_k6a`) OS1.0.3.0.THGMIXM, unless pinned
 
 # ADSP
 -vendor/bin/adsprpcd
