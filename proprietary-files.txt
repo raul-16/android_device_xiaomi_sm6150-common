@@ -64,11 +64,11 @@ vendor/app/IWlanService/IWlanService.apk
 vendor/etc/cne/mwqem.conf
 vendor/etc/cne/profileMwqem.xml
 vendor/etc/init/cnd.rc
--vendor/lib64/libcne.so
+-vendor/lib64/libcne.so;DISABLE_CHECKELF
 -vendor/lib64/libcneapiclient.so
 -vendor/lib64/libcneoplookup.so
 -vendor/lib64/libwms.so
--vendor/lib64/libwqe.so
+-vendor/lib64/libwqe.so;DISABLE_CHECKELF
 -vendor/lib64/libxml.so
 -vendor/lib64/vendor.qti.data.factory@2.0.so
 -vendor/lib64/vendor.qti.data.factory@2.1.so
@@ -173,8 +173,8 @@ vendor/etc/gpfspath_oem_config.xml
 -vendor/lib64/libops.so
 -vendor/lib64/libqisl.so
 -vendor/lib64/librpmb.so
--vendor/lib64/libsecureui.so
--vendor/lib64/libsecureui_svcsock.so
+-vendor/lib64/libsecureui.so;DISABLE_CHECKELF
+-vendor/lib64/libsecureui_svcsock.so;DISABLE_CHECKELF
 -vendor/lib64/libssd.so
 -vendor/lib64/libtrustedapploader.so
 
@@ -214,7 +214,7 @@ vendor/gpu/kbc/unified_ksqs.bin|8f77dc004796d58acb959e78f4994c5d6b90baef
 -vendor/lib/libC2D2.so|1c89e545a5dabc94d27db32031594a792d91d6fd
 -vendor/lib/libOpenCL.so|d5642e23207996dbbc13273927127ecf04fced53
 -vendor/lib/libVkLayer_q3dtools.so|390f7ff73f79496ed12539b2bcee9851536118cd
--vendor/lib/libadreno_app_profiles.so|ef262204fe9c17f9526b9da2111367adef8b0441
+-vendor/lib/libadreno_app_profiles.so;DISABLE_CHECKELF|ef262204fe9c17f9526b9da2111367adef8b0441
 -vendor/lib/libadreno_utils.so|1fac5517c83d8a9af80e2f128611eda2256cfdcf
 -vendor/lib/libc2d30_bltlib.so|a24885cfa5eb1658660eaa9b748bd289cbfa64a9
 -vendor/lib/libgpudataproducer.so|885a29ab27d41c3fcfc7e5357d430f055b264f8d
@@ -231,13 +231,13 @@ vendor/gpu/kbc/unified_ksqs.bin|8f77dc004796d58acb959e78f4994c5d6b90baef
 -vendor/lib64/libCB.so|7f93b7566e8098978d8b90fcc6b916a6da7e0e7d
 -vendor/lib64/libOpenCL.so|76d6d5f9e89d896665fdd06cbede3e21c92c8068
 -vendor/lib64/libVkLayer_q3dtools.so|8d7bac4defe7482bb1060104e93e80ff1149b648
--vendor/lib64/libadreno_app_profiles.so|c008773946820767d76ce06576ad6976380c6c4f
+-vendor/lib64/libadreno_app_profiles.so;DISABLE_CHECKELF|c008773946820767d76ce06576ad6976380c6c4f
 -vendor/lib64/libadreno_utils.so|9c476d8fa6bfa8bc9f340cb1af6e5f33feddb77e
 -vendor/lib64/libc2d30_bltlib.so|e7114d68fa058fb7c9b0ce33d4d12e20495e21f9
 -vendor/lib64/libgpudataproducer.so|b82d8137bc48c2760320e496bda53aa54e656717
 -vendor/lib64/libgsl.so|05215b55362463c34173b162e14e7e5ed02bbbbd
--vendor/lib64/libkcl.so|505c6488d7c2c34ac6bcc578e6e90098553e5f4f
--vendor/lib64/libkernelmanager.so|6e34cfed1b61ef27ac3740cf477e1ed836695513
+-vendor/lib64/libkcl.so;DISABLE_CHECKELF|505c6488d7c2c34ac6bcc578e6e90098553e5f4f
+-vendor/lib64/libkernelmanager.so;DISABLE_CHECKELF|6e34cfed1b61ef27ac3740cf477e1ed836695513
 -vendor/lib64/libllvm-glnext.so|a5a1cba925dc64948c4be55edccb59a79c3d29be
 -vendor/lib64/libllvm-qcom.so|f6af31fb74163e3341918c861bece94b8feecc08
 
@@ -248,7 +248,7 @@ vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 
 # GPS
 -vendor/bin/loc_launcher
--vendor/bin/lowi-server
+-vendor/bin/lowi-server;DISABLE_CHECKELF
 -vendor/bin/slim_daemon
 -vendor/bin/xtra-daemon
 vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
@@ -298,7 +298,7 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar|c764b636e0be4
 -system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
 system_ext/priv-app/ims/ims.apk
 -vendor/bin/ims_rtp_daemon
--vendor/bin/imsdatadaemon
+-vendor/bin/imsdatadaemon;DISABLE_CHECKELF
 -vendor/bin/imsqmidaemon
 -vendor/bin/imsrcsd
 vendor/etc/init/ims_rtp_daemon.rc
@@ -382,7 +382,7 @@ vendor/etc/seccomp_policy/codec2.vendor.ext.policy
 -vendor/lib/libOmxDsdDec.so
 -vendor/lib/libOmxEvrcDec.so
 -vendor/lib/libOmxQcelp13Dec.so
--vendor/lib/libOmxVpp.so
+-vendor/lib/libOmxVpp.so;DISABLE_CHECKELF
 -vendor/lib/libOmxWmaDec.so
 -vendor/lib/libdsd2pcm.so
 -vendor/lib/libmmosal.so
@@ -553,8 +553,8 @@ vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 -vendor/lib64/libscveObjectSegmentation_stub.so
 -vendor/lib64/libscveObjectTracker.so
 -vendor/lib64/libscveObjectTracker_stub.so
--vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
--vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
+-vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so;DISABLE_CHECKELF
+-vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so;DISABLE_CHECKELF
 
 # Soter
 vendor/app/SoterService/SoterService.apk
