@@ -212,6 +212,7 @@ vendor/gpu/kbc/unified_ksqs.bin|8f77dc004796d58acb959e78f4994c5d6b90baef
 -vendor/lib/egl/libq3dtools_esx.so|a0a899613e7b686ad2bd25d5473ff6b7349d0f7c
 -vendor/lib/hw/vulkan.adreno.so|9a79dad3dcb133831aa0e98503ff220021c716b1
 -vendor/lib/libC2D2.so|1c89e545a5dabc94d27db32031594a792d91d6fd
+-vendor/lib/libOpenCL.so|d5642e23207996dbbc13273927127ecf04fced53
 -vendor/lib/libVkLayer_q3dtools.so|390f7ff73f79496ed12539b2bcee9851536118cd
 -vendor/lib/libadreno_app_profiles.so|ef262204fe9c17f9526b9da2111367adef8b0441
 -vendor/lib/libadreno_utils.so|1fac5517c83d8a9af80e2f128611eda2256cfdcf
