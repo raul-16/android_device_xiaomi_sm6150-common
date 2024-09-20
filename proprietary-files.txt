@@ -236,8 +236,8 @@ vendor/lib64/libadreno_utils.so|9c476d8fa6bfa8bc9f340cb1af6e5f33feddb77e
 vendor/lib64/libc2d30_bltlib.so|e7114d68fa058fb7c9b0ce33d4d12e20495e21f9
 vendor/lib64/libgpudataproducer.so|b82d8137bc48c2760320e496bda53aa54e656717
 vendor/lib64/libgsl.so|05215b55362463c34173b162e14e7e5ed02bbbbd
-vendor/lib64/libkcl.so;DISABLE_CHECKELF|505c6488d7c2c34ac6bcc578e6e90098553e5f4f
-vendor/lib64/libkernelmanager.so;DISABLE_CHECKELF|6e34cfed1b61ef27ac3740cf477e1ed836695513
+vendor/lib64/libkcl.so|505c6488d7c2c34ac6bcc578e6e90098553e5f4f
+vendor/lib64/libkernelmanager.so|6e34cfed1b61ef27ac3740cf477e1ed836695513
 vendor/lib64/libllvm-glnext.so|a5a1cba925dc64948c4be55edccb59a79c3d29be
 vendor/lib64/libllvm-qcom.so|f6af31fb74163e3341918c861bece94b8feecc08
 
@@ -553,8 +553,8 @@ vendor/lib64/libscveObjectSegmentation.so
 vendor/lib64/libscveObjectSegmentation_stub.so
 vendor/lib64/libscveObjectTracker.so
 vendor/lib64/libscveObjectTracker_stub.so
-vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so;DISABLE_CHECKELF
-vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so;DISABLE_CHECKELF
+vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
+vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
 # Soter
 vendor/app/SoterService/SoterService.apk
