@@ -93,6 +93,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.full.xml \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
+# DebugFS
+PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
@@ -207,9 +210,6 @@ PRODUCT_COPY_FILES += \
 # IRQ balance
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
-
-# Kernel
-PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Lineage Health
 PRODUCT_PACKAGES += \
