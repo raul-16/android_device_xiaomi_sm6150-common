@@ -1,11 +1,7 @@
-
-
 cc_library_shared {
 
     name: "libgeofencing",
     vendor: true,
-
-
 
     srcs: [
         "GeofenceAdapter.cpp",
