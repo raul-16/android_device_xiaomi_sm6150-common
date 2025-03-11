@@ -1,5 +1,4 @@
 GNSS_CFLAGS = [
     "-Werror",
-    "-Wno-error=reorder",
     "-Wno-undefined-bool-conversion",
 ]
