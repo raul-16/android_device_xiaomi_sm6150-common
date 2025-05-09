@@ -193,6 +193,10 @@ persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 persist.vendor.qti.telephony.vt_cam_interface=2
 
+# Logging
+persist.log.tag.QC2Buf=W
+persist.log.tag.QC2V4l2Codec=E
+
 # Keystore
 ro.hardware.keystore_desede=true
 
